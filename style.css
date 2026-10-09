@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kai M. Mathis | Resume</title>
+
+  <!-- The Google Fonts stylesheet includes font-display: swap. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Open Sans", Arial, sans-serif;
+      font-size: 1em;
+      font-weight: 400;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    #container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-bottom: 50px;
+    }
+
+    header,
+    div,
+    p,
+    ul,
+    li {
+      font-family: "Open Sans", Arial, sans-serif;
+      font-size: 1em;
+      font-weight: 400;
+      color: #444;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    #name {
+      font-size: 3em;
+      color: #33485e;
+      text-transform: uppercase;
+      text-align: center;
+      border-bottom: 1px solid #33485e;
+      width: 60%;
+      min-width: 300px;
+      margin: 0 auto;
+    }
+
+    #title {
+      font-size: 1.5em;
+      font-weight: 600;
+      color: #33485e;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 20px 0 0;
+    }
+
+    .sectionheader {
+      font-size: 1.5em;
+      font-weight: 400;
+      color: #fff;
+      background-color: #33485e;
+      text-transform: uppercase;
+      padding: 6px 12px;
+      margin: 20px 0 10px;
+      width: 70%;
+      min-width: 300px;
+    }
+
+    .jobtitle {
+      margin: 4px 0;
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+
+    .organization {
+      margin: 4px 0;
+      font-size: 1.25em;
+      font-weight: 400;
+    }
+
+    .date {
+      margin: 2px 0 0;
+      font-size: 1em;
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    .description {
+      margin: 10px 0;
+    }
+
+    article {
+      margin-bottom: 24px;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .menu {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      list-style: none;
+    }
+
+    .menu li {
+      display: inline;
+      font-size: 1em;
+    }
+
+    #degrees {
+      margin: 5px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    #degrees li {
+      margin-bottom: 20px;
+      font-size: 1em;
+    }
+
+    #do {
+      margin: 5px 0 0;
+      padding-left: 22px;
+      list-style-type: disc;
+    }
+
+    #do li {
+      font-size: 1em;
+    }
+
+    @media print {
+      article,
+      #degrees li {
+        break-inside: avoid;
+      }
+
+      .sectionheader {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+    }
+
+    .top {
+      width: 60%;
+      min-width: 300px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="name">Kai M. Mathis</div>
+
+      <!-- Photo commented out as required.
+      Keep the image in the same folder as this HTML file.
+      <img
+        src="FAC8CE1F-378E-4F9A-B0B8-B0E74261B910_1_105_c.jpeg"
+        alt="Kai M. Mathis"
+        width="200"
+      >
+      -->
+
+      <div id="title">Journalism Student</div>
+
+      <ul class="menu">
+        <li>
+          <a href="mailto:kaimathis05@gmail.com">
+            kaimathis05@gmail.com
+          </a>
+        </li>
+        <li>
+          | <a href="tel:+12029095872">(202) 909-5872</a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Replace this placeholder with your mission statement. -->
+    <p class="description top">[Add your mission statement here.]</p>
+
+    <main>
+      <section aria-labelledby="education">
+        <div class="sectionheader" id="education">Education</div>
+
+        <ul id="degrees">
+          <li>
+            <p class="description">
+              University of Maryland, College Park
+            </p>
+            <p class="description">August 2024 – December 2027</p>
+            <p class="description">
+              Philip Merrill College of Journalism
+            </p>
+            <p class="description">
+              Sports Journalism | Minor: Business
+            </p>
+          </li>
+
+          <li>
+            <p class="description">
+              Howard University, School of Business
+            </p>
+            <p class="description">August 2023 – May 2024</p>
+            <p class="description">
+              Coursework in Marketing | Minor: Sports Administration
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="experience">
+        <div class="sectionheader" id="experience">
+          Employment Experience
+        </div>
+
+        <article>
+          <div class="jobtitle">Intern</div>
+          <div class="organization">
+            The Sports &amp; Entertainment Group
+          </div>
+          <p class="description">Washington, DC</p>
+          <div class="date">May 2024 – June 2024</div>
+
+          <p class="description">
+            Assisted agents in researching and analyzing player
+            statistics, contracts, and industry trends.
+          </p>
+          <p class="description">
+            Maintained and organized client databases, schedules,
+            and important documents.
+          </p>
+          <p class="description">
+            Observed contract negotiations and client meetings to
+            gain exposure to sports business operations.
+          </p>
+          <p class="description">
+            Assisted in scouting potential talent by reviewing game
+            footage and performance reports.
+          </p>
+        </article>
+
+        <article>
+          <div class="jobtitle">Recruiting Intern</div>
+          <div class="organization">Maryland Football</div>
+          <p class="description">College Park, MD</p>
+          <div class="date">September 2024 – April 2026</div>
+
+          <p class="description">
+            Assisted coaching staff and the recruiting department
+            in identifying, evaluating, and engaging top-tier talent.
+          </p>
+          <p class="description">
+            Maintained communication with prospective student-athletes.
+          </p>
+          <p class="description">
+            Supported a seamless experience for recruits and
+            their families.
+          </p>
+        </article>
+      </section>
+
+      <section aria-labelledby="organizations">
+        <div class="sectionheader" id="organizations">
+          Organizations
+        </div>
+
+        <article>
+          <div class="organization">NAACP</div>
+          <div class="date">March 2025 – Present</div>
+          <p class="description">7022-B Montgomery County Branch</p>
+        </article>
+
+        <article>
+          <div class="organization">
+            National Association of Black Journalists
+          </div>
+          <div class="date">February 2025 – Present</div>
+          <p class="description">University of Maryland Chapter</p>
+        </article>
+
+        <article>
+          <div class="jobtitle">Treasurer</div>
+          <div class="organization">With Love</div>
+          <div class="date">August 2025 – May 2026</div>
+          <p class="description">University of Maryland Chapter</p>
+        </article>
+      </section>
+
+      <section aria-labelledby="skills">
+        <div class="sectionheader" id="skills">Skills</div>
+
+        <ul id="do">
+          <li>Written and verbal communication</li>
+          <li>Negotiation</li>
+          <li>Marketing</li>
+          <li>Interviewing</li>
+          <li>Problem solving</li>
+          <li>Relationship building</li>
+          <li>Recruiting operations</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
